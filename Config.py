@@ -9,5 +9,5 @@ def readjson(file):
 
 
 def readtoken():
-    tokenjson = readjson(os.path.join("config", "config.txt"))
+    tokenjson = readjson(os.path.join("/config", "config.txt"))
     return tokenjson["token"]
